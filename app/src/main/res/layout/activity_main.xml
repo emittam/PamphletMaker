@@ -18,19 +18,24 @@
         tools:context="net.emittam.pamphletmaker.MainActivity">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hello World!" />
+            android:gravity="center"
+            android:textSize="26dp"
+            android:text="池田町パンフレットメーカー" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="@{() -> presenter.onButtonClick()}"
-            android:text="test"/>
+            android:text="写真を取る"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="@{() -> presenter.onTestButtonClick()}"
-            android:text="test2"/>
-
+            android:text="写真を見る"/>
     </LinearLayout>
 </layout>

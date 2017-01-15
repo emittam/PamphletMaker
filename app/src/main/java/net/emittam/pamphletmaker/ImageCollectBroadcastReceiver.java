@@ -41,6 +41,7 @@ public class ImageCollectBroadcastReceiver extends BroadcastReceiver {
                 && android.content.pm.PackageManager.PERMISSION_GRANTED == permissionCheck) {
             SharedPreferences prefs = context.getSharedPreferences(saveKey, Context.MODE_PRIVATE);
             Set<String> savedSet = prefs.getStringSet(SAVE_IMAGE_URL_KEY, new HashSet<String>());
+            savedSet = new HashSet<>(savedSet);
             String[] CONTENT_PROJECTION = {
                     MediaStore.Images.Media.DATA,
             };
@@ -55,14 +56,12 @@ public class ImageCollectBroadcastReceiver extends BroadcastReceiver {
             c.close();
 
             String url = "file://" + localPath;
-
             if (!savedSet.contains(url)) {
                 savedSet.add(url);
             }
             SharedPreferences.Editor editor = prefs.edit();
             editor.putStringSet(SAVE_IMAGE_URL_KEY, savedSet);
             editor.commit();
-
         }
     }
 }

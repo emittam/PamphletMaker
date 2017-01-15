@@ -2,6 +2,7 @@ package net.emittam.pamphletmaker;
 
 import android.databinding.BaseObservable;
 import android.databinding.Bindable;
+import android.support.annotation.NonNull;
 
 /**
  * Created by kato-h on 16/11/26.
@@ -23,7 +24,7 @@ public class LeftPamphletViewerModel extends BaseObservable{
 
     public void setLargeImageUrl(String mLargeImageUrl) {
         this.mLargeImageUrl = mLargeImageUrl;
-        notifyChange();
+        notifyPropertyChanged(BR.largeImageUrl);
     }
 
     @Bindable
@@ -33,7 +34,7 @@ public class LeftPamphletViewerModel extends BaseObservable{
 
     public void setSmallImageUrl(String mSmallImageUrl) {
         this.mSmallImageUrl = mSmallImageUrl;
-        notifyChange();
+        notifyPropertyChanged(BR.smallImageUrl);
     }
 
     @Bindable
@@ -43,6 +44,20 @@ public class LeftPamphletViewerModel extends BaseObservable{
 
     public void setText(String mText) {
         this.mText = mText;
-        notifyChange();
+        notifyPropertyChanged(BR.text);
+    }
+
+
+    public boolean add(@NonNull String url) {
+        if (mLargeImageUrl == null) {
+            mLargeImageUrl = url;
+            notifyPropertyChanged(BR.largeImageUrl);
+            return true;
+        } else if (mSmallImageUrl == null) {
+            mSmallImageUrl = url;
+            notifyPropertyChanged(BR.smallImageUrl);
+            return true;
+        }
+        return false;
     }
 }

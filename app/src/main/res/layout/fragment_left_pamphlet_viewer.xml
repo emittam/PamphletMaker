@@ -18,6 +18,7 @@
             <ImageView
                 android:id="@+id/left_large_image_view"
                 android:layout_width="match_parent"
+                android:scaleType="centerCrop"
                 app:layout_heightPercent="60%"
                 app:imageUrl='@{leftImageViewModel.largeImageUrl}'
                 />
@@ -30,19 +31,20 @@
                 >
                 <TextView
                     android:id="@+id/left_text_view"
-                    app:layout_widthPercent="60%"
+                    app:layout_widthPercent="45%"
                     android:layout_height="match_parent"
-                    android:layout_margin="10dp"
+                    android:layout_margin="20dp"
                     android:text="@{leftImageViewModel.text}"
                     >
                 </TextView>
 
                 <ImageView
                     android:id="@+id/left_small_image_view"
-                    app:layout_widthPercent="40%"
+                    app:layout_widthPercent="50%"
+                    android:scaleType="centerCrop"
                     android:layout_height="match_parent"
                     android:layout_toRightOf="@id/left_text_view"
-                    android:layout_margin="10dp"
+                    android:layout_margin="20dp"
                     app:imageUrl='@{leftImageViewModel.smallImageUrl}'
                     />
             </android.support.percent.PercentRelativeLayout>

@@ -5,6 +5,8 @@ import android.widget.ImageView;
 
 import com.squareup.picasso.Picasso;
 
+import net.emittam.pamphletmaker.R;
+
 /**
  * Created by kato-h on 16/11/26.
  */
@@ -12,6 +14,6 @@ import com.squareup.picasso.Picasso;
 public class BindingUtils {
     @BindingAdapter({"imageUrl"})
     public static void loadImage(ImageView view, String url) {
-        Picasso.with(view.getContext()).load(url).into(view);
+        Picasso.with(view.getContext()).load(url).placeholder(R.drawable.noimage).into(view);
     }
 }
