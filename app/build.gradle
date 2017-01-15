@@ -32,8 +32,5 @@ dependencies {
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile 'com.squareup.retrofit2:retrofit:2.1.0'
     compile 'com.squareup.okhttp:okhttp:2.0.0'
-    compile 'eu.freme-project:epublib-core:0.5'
-    compile 'eu.freme-project:epublib-tools:0.5'
-
     testCompile 'junit:junit:4.12'
 }
