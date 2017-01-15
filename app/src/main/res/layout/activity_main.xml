@@ -21,8 +21,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:textSize="26dp"
-            android:text="池田町パンフレットメーカー" />
+            android:textSize="23dp"
+            android:text="池田町パンフレットメーカー\nぱんふる" />
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
