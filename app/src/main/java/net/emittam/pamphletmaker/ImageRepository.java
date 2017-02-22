@@ -56,4 +56,8 @@ public class ImageRepository {
         }
         return model;
     }
+
+    public int getImageCount() {
+        return mImageUrlList.size();
+    }
 }

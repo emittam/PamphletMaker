@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v4.app.NotificationManagerCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.GestureDetector;
@@ -37,6 +38,8 @@ public class PamphletViewerActivity extends AppCompatActivity {
         base.startActivity(intent);
     }
 
+    private static final int NOTIFICATION_ID = 998;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,6 +58,8 @@ public class PamphletViewerActivity extends AppCompatActivity {
         transaction.commit();
         mGestureDetector = new GestureDetector(this, mOnGestureListener);
 
+        NotificationManagerCompat manager = NotificationManagerCompat.from(getApplicationContext());
+        manager.cancel(NOTIFICATION_ID);
     }
 
     @Override
@@ -78,7 +83,7 @@ public class PamphletViewerActivity extends AppCompatActivity {
                 // 開始位置から終了位置の移動距離が指定値より大きい
                 // X軸の移動速度が指定値より大きい
                 else if  (event1.getX() - event2.getX() > SWIPE_MIN_DISTANCE && Math.abs(velocityX) > SWIPE_THRESHOLD_VELOCITY) {
-                    Toast.makeText(PamphletViewerActivity.this, "左から右", Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(PamphletViewerActivity.this, "左から右", Toast.LENGTH_SHORT).show();
                     if (mCurrentPage >= 0) {
                         mCurrentPage--;
                         LeftPamphletViewerFragment fragment = LeftPamphletViewerFragment.createInstance(mCurrentPage);
@@ -94,8 +99,8 @@ public class PamphletViewerActivity extends AppCompatActivity {
                 // 終了位置から開始位置の移動距離が指定値より大きい
                 // X軸の移動速度が指定値より大きい
                 else if (event2.getX() - event1.getX() > SWIPE_MIN_DISTANCE && Math.abs(velocityX) > SWIPE_THRESHOLD_VELOCITY) {
-                    Toast.makeText(PamphletViewerActivity.this, "右から左", Toast.LENGTH_SHORT).show();
-                    if (mCurrentPage >= 0) {
+                    //Toast.makeText(PamphletViewerActivity.this, "右から左", Toast.LENGTH_SHORT).show();
+                    if (mCurrentPage < ImageRepository.getInstance(getApplicationContext(), mKey).getImageCount() / 2) {
                         mCurrentPage++;
                         LeftPamphletViewerFragment fragment = LeftPamphletViewerFragment.createInstance(mCurrentPage);
                         LeftPamphletViewerModel model = ImageRepository.getInstance(getApplicationContext(), mKey).getLeftModel(mCurrentPage);

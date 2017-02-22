@@ -14,6 +14,6 @@ import net.emittam.pamphletmaker.R;
 public class BindingUtils {
     @BindingAdapter({"imageUrl"})
     public static void loadImage(ImageView view, String url) {
-        Picasso.with(view.getContext()).load(url).placeholder(R.drawable.noimage).into(view);
+        Picasso.with(view.getContext()).load(url).placeholder(R.drawable.noimage).resize(480, 270).centerInside().into(view);
     }
 }

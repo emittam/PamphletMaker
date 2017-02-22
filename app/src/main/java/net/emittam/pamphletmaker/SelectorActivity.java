@@ -1,13 +1,19 @@
 package net.emittam.pamphletmaker;
 
 import android.app.Activity;
+import android.app.Notification;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.preference.PreferenceManager;
+import android.provider.MediaStore;
+import android.support.v4.app.NotificationManagerCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.NotificationCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -211,9 +217,40 @@ public class SelectorActivity extends AppCompatActivity {
                 SharedPreferences.Editor editor = defaultPref.edit();
                 editor.putString(ImageCollectBroadcastReceiver.SAVE_FILE_PATH_KEY, item.name);
                 editor.commit();
+                setNotification(item.name, item.name + "\n\n" + item.desc);
+
+                Intent takePictureIntent = new Intent(MediaStore.INTENT_ACTION_STILL_IMAGE_CAMERA);
+
+                SelectorActivity.this.startActivity(takePictureIntent);
                 Toast.makeText(SelectorActivity.this, "好きなカメラアプリで写真を撮ってください", Toast.LENGTH_LONG).show();
                 finish();
             }
         }
+    }
+
+    private static final int NOTIFICATION_ID = 998;
+
+    private void setNotification(String key , String text) {
+        NotificationCompat.Builder builder = new NotificationCompat.Builder(getApplicationContext());
+        builder.setSmallIcon(R.drawable.logo);
+        builder.setContentTitle("写真を記録中です");
+        builder.setContentText("好きなカメラアプリで写真を撮ってください。");
+        builder.setSubText("終了する場合はこの通知をタップしてください");
+
+        Intent mainIntent = new Intent(this, MainActivity.class);
+        mainIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TASK);
+
+        Intent viewIntent = new Intent(this, PamphletViewerActivity.class);
+        viewIntent.putExtra("key", key);
+        viewIntent.putExtra("text", text);
+
+        PendingIntent contentIntent = PendingIntent.getActivities(this, 0, new Intent[] {mainIntent, viewIntent}, PendingIntent.FLAG_UPDATE_CURRENT);
+        builder.setContentIntent(contentIntent);
+
+        Notification n = builder.build();
+        n.flags = Notification.FLAG_NO_CLEAR;
+
+        NotificationManagerCompat manager = NotificationManagerCompat.from(getApplicationContext());
+        manager.notify(NOTIFICATION_ID, n);
     }
 }

@@ -3,8 +3,8 @@
     package="net.emittam.pamphletmaker">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -21,19 +21,19 @@
         </activity>
         <activity
             android:name=".PamphletViewerActivity"
-            android:label="" >
-        </activity>
+            android:label="" />
         <activity
             android:name=".SelectorActivity"
-            android:label="" >
-        </activity>
+            android:label="" />
 
         <receiver android:name=".ImageCollectBroadcastReceiver">
             <intent-filter>
                 <action android:name="android.hardware.action.NEW_PICTURE" />
+
                 <data android:mimeType="image/*" />
             </intent-filter>
         </receiver>
+
     </application>
 
 </manifest>

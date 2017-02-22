@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">PamphletMaker</string>
+    <string name="title_activity_pamphlet_edit">PamphletEditActivity</string>
 </resources>

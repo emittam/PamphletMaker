@@ -3,237 +3,255 @@
 
     <item
         is-multidex="true"
-        jar="/home/kato-h/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.0.0/4c8d1536dba3812cc1592090dc20c47a4ed3c35e/okhttp-2.0.0.jar"
+        jar="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="4c8d1536dba3812cc1592090dc20c47a4ed3c35e">
-        <dex dex="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-2.0.0_6119b426d3ed68fbf4603b35c345988cc114b4f3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/exploded-aar/com.android.databinding/adapters/1.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
-        <dex dex="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.databinding-adapters-1.2.1_4be896fe3532f62bb8bc6f0883591cc29748c67b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/kato-h/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_97def388f8b94ed5f62efe764d23ce9166a6742c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_e3e00a89ec10ba519a9a71b51e8225748c4e2ade/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_12e58ce77a9357bece1aede53f3f92b789e486bb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_eba413d68410cf2d83b032a863e6588182be23e6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/kato-h/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_7146229a48c5c9456e6dde10a93e4964b41d297e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_4f54b0c3bbdd0fec812bc53b4fc6b71d543e9976/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_160eb34bea5bd4d9220d656a74dc9c55fc392c8f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/exploded-aar/com.android.support/percent/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c394e9a7e1552a4499c7d7d25e7eccd6a533b6df">
-        <dex dex="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-percent-24.2.1_e939e061d2d6f8fcd9aabe19b79a8d9c3eb74560/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_c1384580d8441922123bae26efc3b2e0e4b1f98d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_189c194359fe12c76b849e79ec551177ef757206/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_fd677fda11ca7d392ea91d6466df1128064cb083/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_c78809a5d16938da4f4019c7c117f98c5c06f7ad/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_d65079c7ad442729e131986005a2a0a085af3254/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
+        revision="25.0.2"
         sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_2a601fc79bd1213dce6a621b0b5c6dcb89ca9dc0/classes.dex" />
+        <dex dex="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_440f16e08ca1aedc0dceeb27620c8eaa516e15ac\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/exploded-aar/com.android.databinding/library/1.2.1/jars/classes.jar"
+        jar="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
-        <dex dex="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.databinding-library-1.2.1_dc43ff3c5b1603d64f982fbab8a932a2b645fe43/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="7c72f314f9c3a5dfffd3b9a81675ad07f89864ff">
-        <dex dex="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_82eb2cb66be7e62100dd3620c5e5da7973f5d93f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
+        revision="25.0.2"
         sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_17068cce2f2ea223e3de1714ed011db3f5bcfcf7/classes.dex" />
+        <dex dex="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_21c62fe5202c4e14aeb71c8e3b17ba8b1f6a9b9d\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/kato-h/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jar="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
-        <dex dex="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_5d13881e19956bf3ac4b7619991a823dc8a8f2b5/classes.dex" />
+        revision="25.0.2"
+        sha1="afd554a6409e26943c66af9967799e910858cfec">
+        <dex dex="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_3398ebe7af5f6a0a457e371e21ced52c18aa1a54\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jar="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_f3c07382e6bc60f78068f76b33b0862db5992c87/classes.dex" />
+        revision="25.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_0d7990cb4edef9142646a80aefdabc0927f5ce61\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\android\databinding\baseLibrary\2.2.3\baseLibrary-2.2.3.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_6a8fb0c66633cce550f826891fe428aa15fbc775/classes.dex" />
+        revision="25.0.2"
+        sha1="b4b51d1925cdfda98fd861230c1ecb5855500129">
+        <dex dex="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\transforms\dex\debug\folders\1000\10\baseLibrary-2.2.3_8bc637fcca1e0a3556ffc9576dbd2dded58abbcb\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/kato-h/develop/sdk/android_sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jar="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_d6f74b12b6675370376fe9658a3e84e2163dd1fc/classes.dex" />
+        revision="25.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_057714b97f82666ff7d928627851edec63819c76\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/kato-h/develop/devtool/android-studio/gradle/m2repository/com/android/databinding/baseLibrary/2.2.2/baseLibrary-2.2.2.jar"
+        jar="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\exploded-aar\com.android.databinding\library\1.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="8e3519b9d5287840df40776a8268ae336ca9f063">
-        <dex dex="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/transforms/dex/debug/folders/1000/10/baseLibrary-2.2.2_9264d4a96c50ff6223d4b5be39be76d97eb20275/classes.dex" />
+        revision="25.0.2"
+        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
+        <dex dex="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.databinding-library-1.2.1_72ca67095b7642b11404b8f7867c07e984cc75f5\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/kato-h/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jar="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
+        revision="25.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_e77cea9bebfe9daceaed2aec16ba907744f6246a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_62ea8caa01195d253c29dc4b38a470d513e9a7ee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_8a68704f57422db49c420665bbeda7ce15a6cbed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_fe9cc1418a82f9b051762c1836575e8bcc082082\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kato-h\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_d66ab1f6e12fde9d6d87842a7b9b773ccccdb733\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kato-h\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
         sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_386cd52ad2feb2c9f603ad6f766d2944aba49ac4/classes.dex" />
+        <dex dex="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_b416de7939452aa97c074aa7051433f20a537edc\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="32b9da4c42363c14092e00d97441c7b7c36fc924">
-        <dex dex="/home/kato-h/develop/workspace/android/PamphletMaker/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_1091a175aec6b8f1aebd1e6711e32d1e981cd074/classes.dex" />
+        revision="25.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_df80e61c4ee2f03cb9d961b462423c8d8341efe9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_9f37befe3a557466ad7caf8e063eab89f306fb73\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_65360ed428d1c6318f629f35977b20a56493ffbc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_1ae89822257b9bc5c9bb1c33b0b1aaab22112794\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_5a789a98b810fb6f2835725324a416b7775cb6b9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kato-h\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.0_7d034379f2e64cb7427ae08356922c0404e8b593\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kato-h\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_749aab394a4da3ddc70aadc8ad818145b95437de\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_e259fe8234c03fbc24f0510084c984254d2458c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\exploded-aar\com.android.databinding\adapters\1.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
+        <dex dex="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.databinding-adapters-1.2.1_35faaa6b8a158675460e42374646de09c3e43dd3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ec6c46a7b43f090aa532e74a9dee8e8c9ab5690f">
+        <dex dex="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_8367ed5ed56b1e4afa0036f1b7eb3920ee7ea57b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_23b2b7360d23ead8e794d12300ec84aba216d3c2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\exploded-aar\com.android.support\percent\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c394e9a7e1552a4499c7d7d25e7eccd6a533b6df">
+        <dex dex="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-percent-24.2.1_9a620cca40c579b155305307decf2d735ed3b90e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kato-h\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.0.0\4c8d1536dba3812cc1592090dc20c47a4ed3c35e\okhttp-2.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4c8d1536dba3812cc1592090dc20c47a4ed3c35e">
+        <dex dex="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-2.0.0_155eb2b736f0f24c78bcae61b97314439d1ad55d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_974d408adb4190c2b92880417fe2413ca766bf90\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\develop\sdk\android_sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\develop\workspace\android\PamphletMaker\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_9bbf01ace8cac2256a70b046d61cbe877619c2a1\classes.dex" />
     </item>
 
 </items>
